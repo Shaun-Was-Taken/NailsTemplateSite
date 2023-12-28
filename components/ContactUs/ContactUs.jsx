@@ -38,10 +38,7 @@ export default function ContactUs() {
                 <Link href={"/"} className={styles.link}>
                   <FaInstagram className={styles.icons} size={35} />
                 </Link>
-                <Link
-                  href={"https://www.facebook.com/LushNailsSpa"}
-                  className={styles.link}
-                >
+                <Link href={"/"} className={styles.link}>
                   <FaFacebook className={styles.icons} size={35} />
                 </Link>
               </div>
