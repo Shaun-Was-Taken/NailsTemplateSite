@@ -9,8 +9,8 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Lush Nails",
-  description: "Nails Salon",
+  title: "Your Nails Salon",
+  description: "Your Nail Salon",
 };
 
 export default function RootLayout({ children }) {
