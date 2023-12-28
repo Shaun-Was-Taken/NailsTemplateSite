@@ -1,0 +1,59 @@
+/* app/components/PriceList.module.css */
+.priceListContainer {
+  background: #dda0dd;
+  border-radius: 25px;
+  width: 60%;
+  margin: 0px auto;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.allContainer {
+  background-color: #fadadd;
+}
+
+.priceListTitle {
+  margin-bottom: -5px;
+  text-align: center;
+  color: #333;
+  font-size: 32px;
+  /* margin-top: 25px; */
+}
+
+.priceList {
+  background: #dda0dd;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item {
+  background-color: #fff;
+  color: #333;
+  font-weight: 600;
+}
+
+.priceItem {
+  background: #fff;
+  margin: 10px 0;
+  padding: 10px 20px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.extraInfo {
+  text-align: center;
+  color: #333;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .priceListContainer {
+    width: 90%;
+  }
+}

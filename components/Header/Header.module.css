@@ -1,0 +1,74 @@
+/* styles/Header.module.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff; /* Change as needed */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar a,
+.contact a {
+  color: #333; /* Change as needed */
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact {
+  display: none; /* Hide contact in mobile view */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .navbar {
+    position: absolute;
+    right: 20px;
+    top: 60px;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: none; /* Initially hidden */
+  }
+
+  .navbar.active {
+    display: flex; /* Show when active */
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+    transition: all 0.3s ease;
+  }
+}
+
+/* Large screens */
+@media (min-width: 769px) {
+  .hamburger {
+    display: none;
+  }
+
+  .contact {
+    display: block;
+  }
+}

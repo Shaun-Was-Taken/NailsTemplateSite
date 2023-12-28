@@ -1,0 +1,209 @@
+.mainContainer {
+  height: 100vh;
+  background-color: #f0edee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #f0edee;
+  max-width: 1400px;
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  background-color: #f0edee;
+}
+
+.logoImageContainer {
+  line-height: 1;
+  /* margin-left: 60px; */
+  background-color: #f0edee;
+  max-width: 400px;
+  height: 100px;
+  display: flex;
+  justify-content: left; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.logoText {
+  background-color: #f0edee;
+  display: flex;
+  flex-direction: column; /* Stack the text vertically */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  /* Adjust the padding or margin if needed to fit the text */
+}
+
+.logoText p {
+  background-color: #f0edee;
+  margin: 0; /* Remove default margin */
+  font-size: 40px;
+  font-weight: 600;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  color: #c71585;
+}
+
+.logoText small {
+  background-color: #f0edee;
+  margin: 0; /* Remove default margin */
+  font-size: 24px;
+  font-weight: 500;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  color: #c71585;
+}
+
+.titleContainer {
+  background-color: #f0edee;
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between; /* To center the text vertically */
+  align-items: center; /* To center the text horizontally */
+  padding-top: 20px;
+}
+
+.text {
+  background-color: #f0edee;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  /* margin-left: 60px; */
+}
+
+.text h1 {
+  background-color: #f0edee;
+  /* background-color: yellow; */
+  color: #c71585;
+  font-size: 100px; /* Adjust if necessary */
+  font-weight: 800;
+  line-height: 1.1; /* Adjust the line height to decrease the space between lines */
+  margin: 0; /* Remove default margins */
+  padding: 0; /* Remove default padding */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.text p {
+  background-color: #f0edee;
+  margin-top: 60px;
+  color: #333333;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.wordContainer {
+  background-color: #f0edee;
+  /* background-color: blue; */
+  margin-bottom: 50px;
+}
+
+.imageContainer {
+  background-color: #f0edee;
+  position: relative;
+  /* background-color: yellow; */
+  height: 100%;
+  width: 512px;
+}
+
+.img {
+  background-color: #f0edee;
+  /* object-fit: contain; */
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 50px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.buttonContainer {
+  background-color: #f0edee;
+  /* background-color: aquamarine; */
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.link {
+  color: #c71585;
+  background-color: #fff;
+  border: 2px solid #c71585;
+  border-radius: 50px;
+  padding: 25px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1),
+    /*s Outer shadow */ 0 1px 3px rgba(0, 0, 0, 0.1); /* Inner shadow */
+}
+
+.link:visited {
+  color: #c71585;
+}
+
+@media (max-width: 768px) {
+  .logoImageContainer {
+    margin-left: 20px;
+  }
+
+  .logoText p {
+    font-size: 30px; /* Smaller font size for smaller devices */
+  }
+
+  .logoText small {
+    font-size: 18px;
+  }
+
+  .text {
+    margin-left: 20px;
+  }
+
+  .text h1 {
+    text-align: center;
+    font-size: 40px; /* Smaller font size for smaller devices */
+    line-height: normal; /* Adjust line height for smaller devices */
+  }
+
+  .text p {
+    font-size: 18px; /* Smaller font size for smaller devices */
+  }
+
+  .buttonContainer {
+    width: 100%; /* Use full width for smaller devices */
+    justify-content: center; /* Center the button */
+  }
+
+  .link {
+    padding: 15px; /* Smaller padding for smaller devices */
+    font-size: 18px; /* Smaller font size for smaller devices */
+  }
+}
+
+/* Small devices (landscape phones, 576px and down) */
+@media (max-width: 576px) {
+  .container {
+    height: auto; /* Make container height automatic */
+  }
+
+  .titleContainer {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: flex-start; /* Align items to the start */
+    padding-top: 10px;
+  }
+
+  .text {
+    align-items: flex-start; /* Align text to the start */
+  }
+
+  .wordContainer {
+    margin-bottom: 20px; /* Smaller margin for smaller devices */
+  }
+
+  .imageContainer {
+    display: none; /* Hide the image on very small screens */
+  }
+}
