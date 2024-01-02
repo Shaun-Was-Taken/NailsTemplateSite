@@ -9,30 +9,21 @@ export default function Testimonial() {
           <div className={styles.testimonialContainer}>
             <div className={styles.testimonial}>
               <p>
-                &quot;I walked in just before they closed and they still took
-                me. My nails are beautiful they were so kind and personable.
-                Definitely going back! 10 out of 10 recommend!&quot;
+                &quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&quot;
               </p>
-              <p className={styles.author}>- Marcar P. ⭐⭐⭐⭐⭐</p>
+              <p className={styles.author}>- XXXXX. ⭐⭐⭐⭐⭐</p>
             </div>
             <div className={styles.testimonial}>
               <p>
-                &quot;This was my first visit. The ladies here are wonderful and
-                do a great job making you feel fabulous. Their salon is clean
-                and comfortable. These ladies are so nice and professional. I
-                recommend that you make an appointment because Lush Nails Spa is
-                a popular place. I will be back.&quot;
+                &quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. &quot;
               </p>
-              <p className={styles.author}>- Melody F. ⭐⭐⭐⭐⭐</p>
+              <p className={styles.author}>- XXXXX. ⭐⭐⭐⭐⭐</p>
             </div>
             <div className={styles.testimonial}>
               <p>
-                &quot;I saw Sonia and she did an amazing job on my dip set. I
-                loved how friendly and happy the atmosphere was. My nails still
-                look freshly done a week later. They have extremely talented
-                nail techs and do a terrific job.&quot;
+                &quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. .&quot;
               </p>
-              <p className={styles.author}>- Babe S. ⭐⭐⭐⭐⭐</p>
+              <p className={styles.author}>- XXXXX. ⭐⭐⭐⭐⭐</p>
             </div>
           </div>
         </div>
